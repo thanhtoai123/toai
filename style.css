@@ -1,0 +1,69 @@
+#profile {
+  display: flex;
+  height: 100% !important;
+}
+
+.sidebar {
+  width: 380px;
+  background-color: #2d8693;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px;
+  padding-top: 20px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.menu a li {
+  color: #fff;
+  font-family: "Island Moments", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.content h1 {
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 80px;
+    margin: 5px 0;
+    margin-top: 35px;
+}
+
+.content h1 span {
+    color: #2d8693;
+}
+
+.address {
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.intro {
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    width: 90%;
+    text-align: justify;
+    margin-top: 30px;
+}
